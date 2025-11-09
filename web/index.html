@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <title>Minecraft Recreate — Web + WASM</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <h1>Minecraft Recreate — Web + WASM</h1>
+    <p>WASM + three.js demo (use o server local para abrir).</p>
+  </div>
+  <script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
+  <script src="world.js"></script> <!-- gerado pelo Emscripten (build/world.js) -->
+  <script src="app.js"></script>
+</body>
+</html>
