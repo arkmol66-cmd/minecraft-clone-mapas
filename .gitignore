@@ -1,0 +1,9 @@
+# Common
+/build/
+/.vscode/
+*.o
+*.exe
+*.wasm
+/node_modules/
+/dist/
+/*.zip
